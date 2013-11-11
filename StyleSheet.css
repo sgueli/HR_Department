@@ -1,0 +1,65 @@
+﻿ * { font-family:Arial;color:#069;font-weight:bold;font-size:9pt}
+	    label{display:block}
+	    .pd{margin-bottom:10px;display:block}
+form {
+   
+    margin-left:300px;
+    margin-top:15px;
+
+}
+
+h1 {
+    margin-left:300px;
+    margin-top:295px;
+
+    
+  }
+
+h2 {
+margin-left:800px;
+margin-top:25px;
+
+}
+
+p {
+margin-left:800px;
+margin-top:25px;
+
+
+}
+.update {
+margin-left:500px;
+margin-top:25px;
+
+
+}
+
+
+
+.form1 {
+
+margin-top:50px;
+margin:auto;
+}
+
+
+td {
+
+    width:125px;
+
+
+
+}
+
+.table {
+width:300px;
+
+
+}
+
+.wrapper {
+width:900px;
+margin:auto;
+
+
+}
