@@ -57,6 +57,22 @@ width:300px;
 
 }
 
+label {
+
+margin-top:20px;
+
+}
+
+
+TextBox {
+
+    width:500px;
+
+}
+
+
+
+
 .wrapper {
 width:900px;
 margin:auto;

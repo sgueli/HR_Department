@@ -19,123 +19,111 @@
 
     <form id="form1" runat="server">
     <div>
-           <table class="table" >
-            <tr>
-                <td>
-                    Employee ID:</td>
-                <td >
-                    <asp:TextBox ID="txtID" runat="server" BackColor="#E0E0E0" Enabled="False"></asp:TextBox></td>
+           
+                
+                 <label>   Employee ID: </label>
+                
+                   <asp:TextBox ID="txtID" runat="server" BackColor="#E0E0E0" Enabled="False"></asp:TextBox> 
                    
-            </tr>
             
-               <tr>
-                <td >
-                    Last Name :</td>
-                <td>
-                    <asp:TextBox ID="txtLastName" runat="server"></asp:TextBox></td>
-            </tr>
-            <tr>
-                <td>
-                    First Name:</td>
-                <td>
-                    <asp:TextBox ID="txtFirstName" runat="server"></asp:TextBox></td>
-            </tr>
-            <tr>
-                <td>
-                    Title:</td>
-                <td>
-                    <asp:TextBox ID="txtTitle" runat="server"></asp:TextBox></td>
-            </tr>
             
-            <tr>
-                <td>
-                    TitleOfCourtesy:</td>
-                <td>
-                    <asp:TextBox ID="txtTitleOfCourtesy" runat="server"></asp:TextBox></td>
-            </tr>
+               
+               
+              <label>     Last Name: </label> 
+                
+                    <asp:TextBox ID="txtLastName" runat="server"></asp:TextBox>
             
-               <tr>
-                <td>
-                    BirthDate:</td>
-                <td>
-                    <asp:TextBox ID="txtBirthDate" runat="server"></asp:TextBox></td>
-            </tr>   
+            
+                
+              <label>      First Name:  </label>
+                
+                    <asp:TextBox ID="txtFirstName" runat="server"></asp:TextBox>
+            
+            
+                
+             <label>      Title: </label> 
+                
+                    <asp:TextBox ID="txtTitle" runat="server"></asp:TextBox>
+            
+            
+            
+                
+              <label>     TitleOfCourtesy:  </label> 
+                
+                    <asp:TextBox ID="txtTitleOfCourtesy" runat="server"></asp:TextBox>
+            
+            
                
-             <tr>
-                <td>
-                    HireDate:</td>
-                <td>
-                    <asp:TextBox ID="txtHireDate" runat="server"></asp:TextBox></td>
-            </tr>  
+                
+             <label>      BirthDate: </label> 
+                
+                    <asp:TextBox ID="txtBirthDate" runat="server"></asp:TextBox>
+             
                
-               <tr>
-                <td>
-                    Address:</td>
-                <td>
-                    <asp:TextBox ID="txtAddress" runat="server"></asp:TextBox></td>
-            </tr>  
+             
+                
+            <label>      HireDate: </label>  
+                
+                    <asp:TextBox ID="txtHireDate" runat="server"></asp:TextBox>
+              
                
-            <tr>
-                <td>
-                    City:</td>
-                <td>
-                    <asp:TextBox ID="txtCity" runat="server"></asp:TextBox></td>
-            </tr>  
+               
+                
+               <label>    Address:  </label> 
+                
+                    <asp:TextBox ID="txtAddress" runat="server"></asp:TextBox>
+              
+               
+            
+                
+           <label>        City:  </label> 
+                
+                    <asp:TextBox ID="txtCity" runat="server"></asp:TextBox>
+             
                   
-             <tr>
-                <td>
-                    Region:</td>
-                <td>
-                    <asp:TextBox ID="txtRegion" runat="server"></asp:TextBox></td>
-            </tr>  
+             
+                
+             <label>      Region:   </label> 
+                
+                    <asp:TextBox ID="txtRegion" runat="server"></asp:TextBox>
+              
                   
                
-               <tr>
-                <td>
-                    Postal Code:</td>
-                <td>
-                    <asp:TextBox ID="txtPostalCode" runat="server"></asp:TextBox></td>
-            </tr>  
+               
+                
+              <label>     Postal Code: </label> 
+                
+                    <asp:TextBox ID="txtPostalCode" runat="server"></asp:TextBox>
+             
                  
-            <tr>
-                <td>
-                    Country:</td>
-                <td>
-                    <asp:TextBox ID="txtCountry" runat="server"></asp:TextBox></td>
-            </tr>  
+            
+                
+             <label>      Country:  </label> 
+                
+                    <asp:TextBox ID="txtCountry" runat="server"></asp:TextBox>
+             
                  
-               <tr>
-                <td>
-                    Home Phone:</td>
-                <td>
-                    <asp:TextBox ID="txtHomePhone" runat="server"></asp:TextBox></td>
-            </tr>     
-               <tr>
-                <td>
-                    Extension:</td>
-                <td>
-                    <asp:TextBox ID="txtExtension" runat="server"></asp:TextBox></td>
-            </tr>     
+               
+                
+              <label>     Home Phone:  </label> 
+                
+                    <asp:TextBox ID="txtHomePhone" runat="server"></asp:TextBox>
+                 
+               
+               
+           <label>         Extension:  </label>
+                
+                    <asp:TextBox ID="txtExtension" runat="server"></asp:TextBox> <br />
+                 
                 
                
-               <tr>
-                <td>
-                    <asp:Button ID="btnUpdate" runat="server" Text="update" OnClick="btnUpdate_Click" style="height: 26px" /></td>
-                <td style="width: 81px">
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" style="width: 163px">
-                    <asp:Label ID="lblRowsAffected" runat="server" Width="360px"></asp:Label></td>
-            </tr>
+                   <asp:Button ID="btnUpdate" runat="server" Text="update" OnClick="btnUpdate_Click" style="height: 26px" />
+                
+                
+                   <asp:Label ID="lblRowsAffected" runat="server" Width="360px"></asp:Label>
+           
       
-           
-           
-           
-           
-           </table>
-    
-    </div>
+     </div>
     </form>
   
         </div>
